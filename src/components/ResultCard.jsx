@@ -31,7 +31,7 @@ const ResultCard = ({
         <Description>{fields["Details"]}</Description>
         <footer>
             {fields["Type"] && <Tag>{fields["Type"]}</Tag>}
-            {fields["Target Audience"] && <Tag>{fields["Target Audience"]}</Tag>}
+            {fields["Target Audience"] && <Tag>For {fields["Target Audience"]}</Tag>}
         </footer>
     </Outer>    
 
